@@ -2,6 +2,19 @@ body {
   background-color:  rgba(243,245,250,1);
 }
 
+.button-rounded {
+  border-width: 2px;
+  border-color: black;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 0px 5px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
 .header{
   font-size: 70px;
   text-align: center;
