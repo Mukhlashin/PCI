@@ -15,7 +15,16 @@
 </head>
 <body>
 	<!--Header-->
-    <div class="container">
+	<div class="topnav" id="myTopnav">
+		<a href="#home" class="active">Home</a>
+		<a href="#news">News</a>
+		<a href="#contact">Contact</a>
+		<a href="#about">About</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		  <i class="fa fa-bars"></i>
+		</a>
+	  </div>
+    <!-- <div class="container">
 		<header id="header" class="fixed-top header-scrolled" style="background-color: white;">
 		  <div class="container d-flex align-items-center">
 			<div class="col-lg-6 col-md-6">
@@ -55,7 +64,7 @@
 			</div>
 		  </div>
 		</header>
-	  </div>
+	</div> -->
 	  <!--End Header-->
 	  <div class="container-fluid" style="height: 600px; margin-top: 80px; display: flex;">
 		<div class="container row">
@@ -79,7 +88,7 @@
 	</div>
 		<div class="container-fluid py-5">
 			<img src="/asset/img/asset3.png"  alt="icon-background" style="position: absolute; margin-left: -1.3rem; height: 800px;">
-			<img src="/asset/img/asset2.png"  alt="icon-background" style="position: absolute; float: right; margin-left: -1.3rem; height: 800px;">
+			<!-- <img src="/asset/img/asset2.png"  alt="icon-background" style="position: absolute; height: 800px;"> -->
 			<div class="container" style=" position: relative;">
 				<div class="row align-items-center">
 					<div class="col-4">
@@ -124,7 +133,7 @@
 							value-added solutions that suit the needs.
 						</p>
 					   </div>
-					<div class="col-4">
+					<div class="col-4 offset-1">
 						<img src="/asset/img/Intersection_4.png" class="img-fluid" style="height: 385px;">
 					</div>
 				</div> 
@@ -207,5 +216,15 @@
         </div>
     </div>
     <!--end footer-->
+	<script>
+		function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+	</script>
 </body>
 </html>
