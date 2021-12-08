@@ -9,6 +9,79 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet"> 
+    <style>
+      img {
+        position : relative;
+        z-index: 1;
+        top:0;
+      }
+
+      .teks {
+        position: absolute;
+        top : 20px;
+        z-index: 2px;
+        margin-left: 370px;
+        margin-top: 100px;
+        font-size: 20px;
+        color: white;
+          }
+
+      h2 {
+        font-weight: bold;
+        font-size: 50px;
+      }
+
+      .date {
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+        padding: 10px;
+        border: 1px;
+        width: 210px; 
+        margin-left: 950px;
+        border-radius: 5px;
+        font-weight: bold;
+        
+      }
+      h6 {
+        font-weight: bold;
+      }
+
+      .red {
+        background-color: red;
+        border-radius: 2px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+        width: 250px;
+        height: 50px;
+        text-align: center;
+        color: white;
+        margin-left: 950px;
+        font-weight: bold;
+        font-size: 15px;
+        padding-top: 11px;
+        cursor: pointer;
+
+      }
+
+      .join {
+        margin-left: 950px;
+        font-weight: bold;
+        font-size: 20px;
+        
+      }
+
+      @media screen and (min-width:450px) {
+        .dot {  
+          height: 10%;
+        }
+        .artboard {
+
+
+        }
+
+        
+      }
+
+
+    </style>
 </head>
 <body>
     <!--Header-->
@@ -56,15 +129,98 @@
       <!--End Header-->
       <!-- Start Banner -->
       <div class="container-fluid px-0 d-flex flex-column min-vh-100 justify-content-center align-items-center" style=" padding-top: 70px;">
-        <img class="img-fluid" src="/asset/img/Rectangle_575.png" alt="bg-careers" style="filter: brightness(35%); z-index: -1; max-width: 100%; height: auto; position: absolute;">
-        <h1 style="color: white; font-family: 'Abril Fatface', cursive; font-size: 100px; text-align: center;">CAREERS</h1>
+        <img class="img-fluid" src="/asset/img/Rectangle_575.png" alt="bg-careers" style="filter: brightness(35%); z-index: -1; width: 100%; height: auto; position: absolute;">
+        <h1 style="color: white; font-family: 'Abril Fatface', cursive; font-size: 100px; text-align: center; font-size: 8vw;">CAREERS</h1>
       </div>
       <!-- End Banner -->
       <!-- Start Section 1 -->
+      <div class="row">
       <div class="container my-5" style="position: relative;">
-        <img src="/asset/img/artboard–1.png" alt="" style="z-index: -1; max-width: 100%; height: auto;">
-        <img src="/asset/img/Image_8.png" alt="" style="position: absolute; top: 0; left: 0; height: 70%;">
+        <img src="/asset/img/artboard–1.png" alt="" class="artboard" class ="col-lg-10 col-md-5"style="z-index: -1; width: 100%; height: auto;">
+        <img src="/asset/img/Image_8.png" alt=""class="dot" class =""style="position: absolute; top: 40px; left: 45px;">
+        <div class="teks" class="col-lg-6 col-md-3">
+          <h2 style="font-size: 4vw; text-align:justify;">Front End Developer</h2>
+          <h6 style="font-size: 1vw; text-align:justify">Hosted By : PT.Digdaya Olah Teknologi Indonesia</h6>
+        </div>
       </div>
+      </div>
+      <!---
+      <div>
+        <div class="date" class="">
+            DUE DATE : DEC 18, 2021
+        </div>
+        <div class="join" class="">
+          Want to join us?
+        </div>
+        <div class="red">
+          SEND YOUR CV
+        </div>
+      </div>
+    -->
+
+    
+
+      <div class="container">
+        <h6>Contract Type :</h6>
+        <p>Full Time</p>
+
+        <h6>Position :</h6>
+        <p>Junior-intermediate Front-End Dev</p>
+
+        <h6>Location :</h6>
+        <p>Online</p>
+
+        <h6>About Company :</h6>
+        <p>DOT Indonesia is a software company in web app devv, mobile apps - IOS & Android.</br>
+        Our Vision is to KEEP AHEAD in the infinite games of the IT industry. we are not just</br>
+        doing coding or programming, we are developing solutions with our hearts, passion,</br>
+        and touch of art because we are sentimental engineers.</p>
+          
+        <h6>Job Description :</h6>
+        <ul>
+          <li>Determine the scructure and design of the website/web app page</li>
+          <li>Investigate, analyze and resolve issues that impact client's website</li>
+          <li>Ensure that the web app design is able to maximize the user experience</li>
+          <li>Development and maintenance of highly-responsive web-based front end-user interface</li>
+          <li>Optimizing the website/web app to keep it fast and can continue to be developed</li>
+          <li>Work with scrum project management</li>
+          <li>Work and collaborate with backend, product, and UI/UX team</li>
+          <li>Communicate effectively with project managers, technical lead,supervisor,</br>
+          developer, and other internal team members</li>
+        </ul>  
+
+        <h6>Benefit :</h6>
+        <ol>
+          <li>Competitive salary + daily allowance</li>
+          <li>Flexible working hours and remote woculturerk </li>
+          <li>Friendly and dynamic work environment</li>
+          <li>BPJS Kesehatan dan ketenagakerjaan</li>
+          <li>Bonus Project</li>
+        </ol>
+
+        <h6>Applicant Requirements :</h6>
+        <ul>
+          <li>minimum 1-year experience as afront-end engineer(developer)</li>
+          <li>Highly motivated and passionate to work in a fast-paced environment</li>
+          <li>Strong knowledge and skill in HTML5 and CSS3</li>
+          <li>Have an understanding of implementing RESTful API</li>
+          <li>Strong knowledge and skill in programminglanguages (javascript)</li>
+          <li>Experience using unit test</li>
+          <li>Have knowledge about react native (point a plus)</li>
+          <li>Experience using state management</li>
+          <li>Experience using Vue.js/React</li>
+          <li>Have an understandig of the web development process, including version</br>
+          control systems</li>
+          <li>Critical and analytic skills</li>
+          <li>Able to work full-time and remotely</li>
+        </ul>
+
+
+      </div>
+
+
+      
+    
       <!-- End Section 1 -->
 
 </body>
