@@ -1,6 +1,44 @@
 body {
   background-color:  rgba(243,245,250,1);
+  margin: auto;
+  padding: 0px;
+}.navbar {
+  width: 95%;
 }
+.navbar-title {
+  font-size: 10px;
+  float: left;
+}
+.navbar-brand {
+    color: black;
+    font-size: 13px;
+    font-weight: 700;
+    float: left;
+    width: 100px;
+    line-height: 1;
+}
+.navbar-nav{
+    float: right;
+    display: inherit;
+    margin-right: 0px;
+}
+
+a.nav-link{
+   margin: 0px 10px 0px 10px;
+   color: black;
+   font-weight: 500;
+}
+@media (max-width: 767.98px) { 
+   
+  .navbar-brand {
+      float: left;
+      margin: 0px;
+  }
+  .navbar-nav {
+      float: left;
+  }
+
+
 
 .button-rounded {
   border-width: 2px;
